@@ -6,7 +6,7 @@
 #### from server listen to event emmiter
 * listen()  
   
-  Whenever an HTTP request is received,it handles the request and returns some response. 
+  Whenever an request is received,it handles the request and returns some response. 
 
       server.listen( {
           handleRequest: function( request, response ) {

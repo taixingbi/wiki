@@ -10,6 +10,9 @@
 ### node events
 * eventEmiter
 
+### others
+Jquery
+
 
 
 

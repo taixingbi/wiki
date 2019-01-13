@@ -1,12 +1,7 @@
 
 ### Event 
  * on:  bind a function with the event
- * emit: fire an event.
-
-### HTML Event
-e.g. onchange, onclick, onmouseover, onmouseout, onkeydown, onload   
-
-
+ * emit: fire an event. 
 
 ### Node JS
 from server listen to event emmiter

@@ -3,7 +3,8 @@
    * on:  bind a function with the event
    * emit: fire an event.
 
-#### from server listen to event emmiter
+## Node JS
+from server listen to event emmiter
 * listen()  
   
   Whenever an request is received,it handles the request and returns some response. 

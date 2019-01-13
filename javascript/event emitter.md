@@ -4,7 +4,7 @@
  * emit: fire an event.
 
 ### HTML Event
-onchange, onclick, onmouseover, onmouseout, onkeydown, onload   
+e.g. onchange, onclick, onmouseover, onmouseout, onkeydown, onload   
 
 
 

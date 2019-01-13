@@ -3,7 +3,7 @@
  * on:  bind a function with the event
  * emit: fire an event. 
 
-### Node JS
+### Node JS (event-driven)
 from server listen to event emmiter
 * listen()  
   
@@ -35,6 +35,10 @@ from server listen to event emmiter
           }
       }
       
+### more
+single threated
+
+
    
 
 

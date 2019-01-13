@@ -1,5 +1,5 @@
 # MVC
 Model–View–Controller framework
 
-* language: 
+* language    
   Java, C#, Python, Ruby, PHP

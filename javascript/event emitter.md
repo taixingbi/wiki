@@ -36,7 +36,8 @@ from server listen to event emmiter
       }
       
 ### more
-single threated
+* single threated 
+* asynchronous/non-blocking, due to event-loop mechanism
 
 
    

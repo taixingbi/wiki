@@ -1,4 +1,4 @@
 # MVC
-Model–View–Controller is an architectural pattern 
+Model–View–Controller framework
 
 * language: Java, C#, Python, Ruby, PHP

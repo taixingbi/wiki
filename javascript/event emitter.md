@@ -35,7 +35,7 @@ from server listen to event emmiter
           }
       }
       
-### more Node
+### more Node JS
 * single threated 
 * asynchronous/non-blocking, due to event-loop mechanism
 

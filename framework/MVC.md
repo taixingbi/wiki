@@ -1,7 +1,7 @@
 # MVC
 * Model–View–Controller framework(pattern)
   * Mode: Storing the data
-  * View: Graphic representation
+  * View: prensent output in browser in HTML format
   * Controller: Taking a user action. 
     
 

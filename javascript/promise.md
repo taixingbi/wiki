@@ -1,4 +1,5 @@
-
+### Promise
+a value that may not be available yet, but will be resolved at some point in the future.
 
 ### states
 * pending: initial state, neither fulfilled nor rejected.

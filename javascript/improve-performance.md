@@ -1,3 +1,7 @@
+### improve-performance
+resize, scroll, and keyup/keydown events
+
+
 ### debounce
 delays the processing of the keyup event until the user has stopped typing for a predetermined amount of time.
 

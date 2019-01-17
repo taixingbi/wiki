@@ -3,8 +3,7 @@ A closure is the combination of a function bundled together (enclosed) with refe
 
 To use a closure, simply define a function inside another function and expose it
 
-* closures for data privacy.    
-`.get()` method is defined inside the scope of `getSecret()`, which gives it access to any variables from `getSecret()`, and makes it a privileged method. In this case, the parameter, `secret`.
+* closures for data privacy. `.get()` method is defined inside the scope of `getSecret()`, which gives it access to any variables from `getSecret()`, and makes it a privileged method. In this case, the parameter, `secret`.
 
         const getSecret = (secret) => {
           return {

@@ -5,37 +5,38 @@ resize, scroll, and keyup/keydown events
 ### debounce
 delays the processing of the keyup event until the user has stopped typing for a predetermined amount of time.
 
-    // Returns a function, that, as long as it continues to be invoked, will not
-    // be triggered. The function will be called after it stops being called for
-    // N milliseconds. If `immediate` is passed, trigger the function on the
-    // leading edge, instead of the trailing.
-    function debounce(func, wait, immediate) {
-      var timeout;
-
-      return function executedFunction() {
-        var context = this;
-        var args = arguments;
-
-        var later = function() {
-          timeout = null;
-          if (!immediate) func.apply(context, args);
-        };
-
-        var callNow = immediate && !timeout;
-
-        clearTimeout(timeout);
-
-        timeout = setTimeout(later, wait);
-
-        if (callNow) func.apply(context, args);
-      };
-    };
+     // ES6
+    function debounced(delay, fn) {
+      let timerId;
+      return function (...args) {
+        if (timerId) {
+          clearTimeout(timerId);
+        }
+        timerId = setTimeout(() => {
+          fn(...args);
+          timerId = null;
+        }, delay);
+      }
+    }
 
 
 ### throttle
+cause the event listener to ignore some portion of the events while still firing the listeners at a constant (but reduced) rate
 
+    // ES6 code
+    function throttled(delay, fn) {
+      let lastCall = 0;
+      return function (...args) {
+        const now = (new Date).getTime();
+        if (now - lastCall < delay) {
+          return;
+        }
+        lastCall = now;
+        return fn(...args);
+      }
+    }
 
 
 ### reference
 [1] [Debounce in JavaScript — Improve Your Application’s Performance](https://levelup.gitconnected.com/debounce-in-javascript-improve-your-applications-performance-5b01855e086)
-
+[2] [Throttling and debouncing in JavaScript](https://codeburst.io/throttling-and-debouncing-in-javascript-646d076d0a44)

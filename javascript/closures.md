@@ -44,5 +44,14 @@ To use a closure, simply define a function inside another function and expose it
 
 ---
 
+#### 
+lexical environment
+
+* environment record
+
+
+
+* out reference
+
 
 

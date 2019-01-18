@@ -1,7 +1,7 @@
 ### closures
 
 ---
-A closure is the ___combination___ of a function and the ___lexical___ environment within which that function was declared.      
+A closure is the `combination` of a function and the `lexical` environment within which that function was declared.      
 
 To use a closure, simply define a function inside another function and expose it
 

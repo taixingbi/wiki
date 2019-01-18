@@ -50,8 +50,7 @@ To use a closure, simply define a function inside another function and expose it
 lexical environment
 
 * environment record
-
-
+the place where the variable and function declarations are stored.
 
 * out reference
 

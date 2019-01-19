@@ -1,8 +1,8 @@
 ### overflow
 ---
-* scroll	
+#### scroll	
   The overflow is clipped, but a scroll-bar is added to see the rest of the content	
-* auto	
+#### auto	
   If overflow is clipped, a scroll-bar should be added to see the rest of the content
 
 

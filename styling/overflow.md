@@ -1,10 +1,6 @@
 ### overflow
 ---
 
-<h2>  asdasd</h2>
-
-
-
 <div class="w3-responsive">
 <table class="w3-table-all notranslate">
   <tbody><tr>
@@ -15,7 +11,7 @@
   <tr>
     <td>visible</td>
     <td>The overflow is not clipped. It renders outside the element's box. This is default</td>
-  <td><a target="_blank" class="w3-btn btnplayit" href="playit.asp?filename=playcss_overflow">Play it »</a></td>                     
+  <td><a target="_blank" class="w3-btn btnplayit" >Play it »</a></td>                     
   </tr>
   <tr>
     <td>hidden</td>

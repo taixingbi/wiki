@@ -24,12 +24,6 @@
     <td>If overflow is clipped, a
       scroll-bar should be added to see the rest of the content</td>
   </tr>
-  <tr>
-    <td>initial</td>
-    </tr>
-  <tr>
-    <td>inherit</td>
-  <td></td>
-    </tr>
+  
 </tbody></table>
 </div>

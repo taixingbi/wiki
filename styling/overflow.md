@@ -26,11 +26,9 @@
   </tr>
   <tr>
     <td>initial</td>
-    <td>Sets this property to its default value.>Read about <em>initial</em></a></td>
     </tr>
   <tr>
     <td>inherit</td>
-    <td>Inherits this property from its parent element. <a href="css_inherit.asp">Read about <em>inherit</em></a></td>
   <td></td>
     </tr>
 </tbody></table>

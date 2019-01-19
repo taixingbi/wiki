@@ -26,7 +26,7 @@
   </tr>
   <tr>
     <td>initial</td>
-    <td>Sets this property to its default value. <a href="css_initial.asp">Read about <em>initial</em></a></td>
+    <td>Sets this property to its default value.>Read about <em>initial</em></a></td>
     </tr>
   <tr>
     <td>inherit</td>

@@ -14,23 +14,19 @@
   <tr>
     <td>hidden</td>
     <td>The overflow is clipped, and the rest of the content&nbsp;will be invisible</td>
-  <td><a target="_blank" class="w3-btn btnplayit" href="playit.asp?filename=playcss_overflow&amp;preval=hidden">Play it »</a></td>                      
   </tr>
   <tr>
     <td>scroll</td>
     <td>The overflow is clipped, but a scroll-bar is added to see the rest of the content</td>
-  <td><a target="_blank" class="w3-btn btnplayit" href="playit.asp?filename=playcss_overflow&amp;preval=scroll">Play it »</a></td>                        
   </tr>
   <tr>
     <td>auto</td>
     <td>If overflow is clipped, a
       scroll-bar should be added to see the rest of the content</td>
-  <td><a target="_blank" class="w3-btn btnplayit" href="playit.asp?filename=playcss_overflow&amp;preval=auto">Play it »</a></td>                      
   </tr>
   <tr>
     <td>initial</td>
     <td>Sets this property to its default value. <a href="css_initial.asp">Read about <em>initial</em></a></td>
-  <td><a target="_blank" class="w3-btn btnplayit" href="playit.asp?filename=playcss_overflow&amp;preval=initial">Play it »</a></td>                      
     </tr>
   <tr>
     <td>inherit</td>

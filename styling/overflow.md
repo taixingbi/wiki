@@ -6,12 +6,10 @@
   <tbody><tr>
     <th style="width:14%">Value</th>
     <th>Description</th>
-    <th>Play it</th>    
   </tr>
   <tr>
     <td>visible</td>
     <td>The overflow is not clipped. It renders outside the element's box. This is default</td>
-  <td><a target="_blank" class="w3-btn btnplayit" >Play it »</a></td>                     
   </tr>
   <tr>
     <td>hidden</td>

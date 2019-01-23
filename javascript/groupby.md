@@ -10,8 +10,15 @@
         return groups
       }, {})
     }  
+    
+    var groupBy = function(xs, key) {
+      return xs.reduce(function(rv, x) {
+        (rv[x[key]] = rv[x[key]] || []).push(x);
+        return rv;
+      }, {});
+    };
 
-### lib 
+    console.log(groupBy(['one', 'two', 'three'], 'length'));
 
-    var result = _(data).groupBy(x => x.color)
+    // => {3: ["one", "two"], 5: ["three"]}
 

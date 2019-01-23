@@ -12,9 +12,9 @@
     }  
     
     var groupBy = function(xs, key) {
-      return xs.reduce(function(rv, item) {
-        (rv[ item[key] ] = rv[ item[key] ] || []).push(item);
-        return rv;
+      return xs.reduce(function(groups, item) {
+        (groups[ item[key] ] = groups[ item[key] ] || []).push(item);
+        return groups;
       }, {});
     };
 

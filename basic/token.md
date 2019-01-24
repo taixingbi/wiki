@@ -20,6 +20,7 @@ it contains information about how the JWT signature should be computed
     
 * signature
 signature is computed based on hashing algorithm
+
     data = base64urlEncode( header ) + “.” + base64urlEncode( payload )
     hashedData = hash( data, secret )
     signature = base64urlEncode( hashedData )

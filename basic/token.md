@@ -24,3 +24,7 @@ signature is computed based on hashing algorithm
     data = base64urlEncode( header ) + “.” + base64urlEncode( payload )
     hashedData = hash( data, secret )
     signature = base64urlEncode( hashedData )
+    
+##### csrf token
+a simple GET request to a state-changing URL X will not work unless an csrf token is included
+ 

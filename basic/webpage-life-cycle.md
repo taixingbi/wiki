@@ -1,7 +1,9 @@
-* Request
-* Response
-* Build
-* Render
+### webpage life cycle
+---
+#### Request
+#### Response
+#### Build
+#### Render
 
 
 

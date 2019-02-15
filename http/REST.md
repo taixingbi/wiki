@@ -1,14 +1,21 @@
-## get request
-* can be cached
-* remain in the browser history
-* can be bookmarked
-* should never be used when dealing with sensitive data
-* have length restrictions
-* is only used to request data (not modify)
+## get mehod
+GET is used to request data from a specified resource.
+* get request can be cached
+* get request remain in the browser history
+* get request can be bookmarked
+* get request should never be used when dealing with sensitive data
+* get request have length restrictions
+* get request is only used to request data (not modify)
   
-## post request
-* are never cached
-* do not remain in the browser history
-* cannot be bookmarked
-* have no restrictions on data length
-  
+## post method
+POST is used to send data to a server to create/update a resource.  
+* post request are never cached
+* post request do not remain in the browser history
+* post request cannot be bookmarked
+* post request have no restrictions on data length
+
+## put method
+PUT is used to send data to a server to create/update a resource.    
+* calling the same PUT request multiple times will always produce the same result, POST not.
+
+

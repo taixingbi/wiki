@@ -18,4 +18,9 @@ POST is used to send data to a server to create/update a resource.
 PUT is used to send data to a server to create/update a resource.    
 * calling the same PUT request multiple times will always produce the same result, POST not.
 
+## head method    
+HEAD is almost identical to GET, but without the response body.           
+HEAD requests are useful for checking what a GET request will return before actually making a GET request - like before downloading a large file or response body
+
+
 

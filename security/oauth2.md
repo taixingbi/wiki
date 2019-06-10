@@ -6,7 +6,7 @@
 #### 1 Authorization Request
 username password / clientname clientsecret 
 
-#### 2 Authorization Request
+#### 2 Authorization Response
 credentials: authorization code 
 
 #### 3 Authorization Request

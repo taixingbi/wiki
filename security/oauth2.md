@@ -19,6 +19,14 @@ The client receives an authorization code
 The client requests an access token by authenticating with the
 authorization server and presenting the authorization grant.
 
-#### 4 Authorization Request
+#### 4 Authorization Response
 The authorization server authenticates the client and validates
 the authorization grant, and if valid, issues an access token.
+
+#### 5 Authorization Request
+The client requests the protected resource from the resource
+server and authenticates by presenting the access token.
+
+#### 6 Authorization Response
+The resource server validates the access token, and if valid,
+serves the request.

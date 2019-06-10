@@ -6,13 +6,13 @@
 #### 1 Authorization Request
 username password / clientname clientsecret 
 
-#### 1 Authorization Request
+#### 2 Authorization Request
 credentials: authorization code 
 
-#### 1 Authorization Request
+#### 3 Authorization Request
 
-#### 1 Authorization Request
+#### 4 Authorization Request
 
-#### 1 Authorization Request
+#### 5 Authorization Request
 
-#### 1 Authorization Request
+#### 6 Authorization Request

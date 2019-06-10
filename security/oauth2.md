@@ -10,7 +10,8 @@
 * code: The Authorization Code received from the initial authorize call.   
 * redirect_uri: The URL must match exactly the redirect_uri passed to /authorize.   
     
-#### 2 Authorization Response
+#### 2 Authorization Response . 
+authorization grant
 credentials: authorization code 
 
 #### 3 Authorization Request

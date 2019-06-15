@@ -1,2 +1,2 @@
-### cache
-collection of data downloaded to help display a web page
+1. enable cache to cache resources to avoid unnecessary server requests.  
+2.  

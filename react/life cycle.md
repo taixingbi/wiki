@@ -1,4 +1,6 @@
 
 
-![GitHub Logo](1.jpg)
+![component mount](1.jpg)
+![component update](2.jpg)
+
 

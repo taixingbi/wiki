@@ -3,4 +3,4 @@
 3. minimize image size
 4. do away with redirects and improve website speed
 5. defer parsing of javaScript
-6. use content delivery network
+6. use CDN(content delivery network)

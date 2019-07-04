@@ -1,4 +1,4 @@
-#### the browser looks up the IP address for the domain name
+#### 1 the browser looks up the IP address for the domain name
 * Browser cache 
 * OS cache 
 * Router cache 
@@ -6,10 +6,10 @@
 * Recursive search 
 [link](https://www.cloudflare.com/learning/dns/what-is-dns/)
 
-* the browser looks up the IP address for the domain name
-* the browser looks up the IP address for the domain name
-* the browser looks up the IP address for the domain name
-* the browser looks up the IP address for the domain name
+#### 2 The browser sends a HTTP request to the web server
+#### 3 the browser looks up the IP address for the domain name
+#### 4 the browser looks up the IP address for the domain name
+#### 5 the browser looks up the IP address for the domain name
 
 
 

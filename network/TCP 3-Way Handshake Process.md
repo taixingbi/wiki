@@ -1,7 +1,4 @@
 ## TCP 3-Way Handshake Process
 ---
 
-[GitHub](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/handshake-1.png)
-
-
-
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
